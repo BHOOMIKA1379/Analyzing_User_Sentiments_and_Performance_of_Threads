@@ -7,7 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/1_kZWnOGvugoiEv7RJdvfHp95PMzbwU_k
 """
 
-pip install streamlit
+
 
 import streamlit as st
 import pickle
@@ -51,7 +51,7 @@ def lemmatizer(text):
 
 st.title("Sentiment Analysis App")
 st.markdown("By Bhoomika")
-image = Image.open("/content/threads.png")
+image = Image.open("threads.png")
 st.image(image, use_column_width=True)
 
 st.subheader("Enter your text here:")
